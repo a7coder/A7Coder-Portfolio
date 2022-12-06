@@ -1,4 +1,4 @@
-import styles from "../styles/index.module.css";
+// import styles from "../styles/index.module.css";
 import Button from "./Button";
 import Alink from './Alink'
 import Image from "next/image";
@@ -6,12 +6,12 @@ export default function Footer() {
   return (
     <footer id="footer">
       <section>
-        <div className={styles.cta}>
+        <div className='cta'>
           <h1>Start a project</h1>
           <h2>Looking Forward To Work with Great Peoples 😊</h2>
           <Button url="/contact">
             <svg
-              className={styles.svg_logo}
+              className='svg_logo'
               aria-hidden="true"
               focusable="false"
               data-prefix="far"
@@ -30,21 +30,21 @@ export default function Footer() {
             Let's do this
           </Button>
         </div>
-        <div className={styles.footer}>
+        <div className='footer'>
           <Alink url='/'>
           <Image
             src="/Icon/logo.svg"
             width={270}
             height={270}
             alt="A7Coder's Logo"
-            className={styles.logo}
+            className='logo'
           /></Alink>
-          <div className={styles.quote}>
+          <div className='quote'>
             <h2>Living, learning, & leveling up one day at a time.</h2>
           </div>
         </div>
 
-        <div className={styles.social_logo}>
+        <div className='social_logo'>
           <Alink url="https://github.com/a7coder">
             <Image
               src="/Social_Icon/github.png"
@@ -70,7 +70,7 @@ export default function Footer() {
             />
           </Alink>
         </div>
-        <div className={styles.copyright}>
+        <div className='copyright'>
           <h1>Handcrafted by me &#169; twentytwentytwo</h1>
         </div>
       </section>

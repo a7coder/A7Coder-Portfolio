@@ -56,11 +56,11 @@ h2 {
 
 .hamburger {
   display: none;
-  transition: all 2 ease-in-out;
+  
 }
-.new-nav {
-  display: none;
-}
+
+
+
 .modify-nav {
   display: flex;
   flex-direction: column;
@@ -74,7 +74,90 @@ h2 {
   margin: 20px 100px 30px 100px;
   border-radius: 57px;
   /* border: 2px solid #f9cd7cbd; */
+  
+  
 }
+
+.cta {
+  background-image: linear-gradient(#b6400f, #822d07);
+  margin: 0 auto;
+  padding: 56px 20px;
+  /* border: 5px green solid; */
+  margin-top: -57px;
+  border-radius: 27px;
+  /* height: 20vh; */
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.cta h1 {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+.cta h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+
+.svg_logo {
+  margin: 0px 4px;
+}
+
+
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 24px;
+  flex-direction: column;
+}
+.logo {
+  margin-top: -1.7rem;
+}
+.quote {
+  margin-top: -7.7rem;
+}
+.quote h2 {
+  font-size: 2rem;
+  line-height: 2.7rem;
+  color: white;
+  font-weight: 700;
+}
+
+.social_logo {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  border-radius: 7px;
+
+  height: 5rem;
+  width: 20rem;
+  margin-top: 17px;
+  gap: 10px;
+}
+
+.copyright {
+  margin-top: 17px;
+}
+.close {
+  display: none;
+  cursor: pointer;
+}
+.copyright h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+  color: white;
+  text-align: center;
+}
+
 
 
 @media only screen and (min-width: 1408px) {
@@ -96,9 +179,99 @@ h2 {
     margin: 0px;
     /* padding: 80px 60px; */
   }
+  .cta h1 {
+    font-size: 2.7rem;
+  }
+  .cta h2 {
+    font-size: 1.7rem;
+  }.quote h2 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 949px) and (max-width: 1024px) {
+  .cta h1 {
+    font-size: 2.6rem;
+  }.cta h2 {
+    font-size: 1.6rem;
+  }
 }
 
 
+
+@media only screen and (min-width: 799px) and (max-width: 949px){
+  .cta {
+    width: 95vw;
+    gap: 17px;
+
+  }.cta h1{
+    font-size: 2.4rem;
+  }
+  .cta h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 569px) and (max-width: 799px){
+  .cta {
+    width: 80vw;
+    flex-direction: column;
+    gap: 50px;
+    padding: 25px 20px;
+  }.cta h1 {
+    font-size: 3rem;
+    padding-right: 20px;
+  }
+  .cta h2 {
+    font-size: 2rem;
+  }
+.quote h2{
+  font-size: 1.8rem;
+}
+.quote {
+  margin-bottom: 12.7px;
+  margin-top: -95.5px;
+
+}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 569px){
+  .cta {
+    width: 70vw;
+    flex-direction: column;
+    gap: 50px;
+    padding: 25px 20px;
+  }.cta h1 {
+    font-size: 3rem;
+    padding-right: 20px;
+  }
+  .cta h2 {
+    font-size: 2rem;
+  }
+.quote h2{
+  font-size: 1.8rem;
+}
+.quote {
+  margin-bottom: 12.7px;
+  margin-top: -95.5px;
+
+}
+}
+
+@media only screen and (min-width: 230px) and (max-width: 300px){
+  .cta {
+    width:270px;
+    flex-direction: column;
+    gap: 40px;
+    padding: 25px 20px;
+  }.cta h1 {
+    font-size: 2rem;
+    padding-right: 20px;
+  }
+  .cta h2 {
+    font-size: 1.5rem;
+  }
+}
 
 @media only screen  and (min-width: 230px)and (max-width: 1024px) {
   .hamburger {
@@ -108,14 +281,8 @@ h2 {
   .sub-nav {
     display: none;
   }
-  .open {
-    display: block;
-    cursor: pointer;
-  }
-  .close {
-    display: none;
-    cursor: pointer;
-  }
+
+  
   nav {
     /* background-color: yellow; */
     margin: 0px;
@@ -151,5 +318,16 @@ h2 {
     width: 55px;
     height: 55px;
   }
-  
+  .cta {
+    width:270px;
+    flex-direction: column;
+    gap: 40px;
+    padding: 25px 20px;
+  }.cta h1 {
+    font-size: 2rem;
+    padding-right: 20px;
+  }
+  .cta h2 {
+    font-size: 1.5rem;
+  }
   }

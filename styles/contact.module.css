@@ -246,7 +246,8 @@
 }
 @media only screen and (min-width: 100px) and (max-width: 230px){
   .innerform{
-align-items: baseline;    
+align-items: baseline; 
+margin: 0 12px;   
   }
   .per_info{
     flex-direction: column;

@@ -213,12 +213,7 @@
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1214px) {
-  .cta h1 {
-    font-size: 2.7rem;
-  }
-  .cta h2 {
-    font-size: 1.7rem;
-  }
+  
   .about_container h1 {
     font-size: 3rem;
   }
@@ -228,21 +223,15 @@
   .about_text strong a {
     font-size: 1.8rem;
   }
-  .quote h2 {
-    font-size: 2rem;
-  }
+  
 }
 
 @media only screen and (min-width: 949px) and (max-width: 1024px) {
-  .cta h1 {
-    font-size: 2.6rem;
-  }
+ 
   .skill{
     margin-top: -180px;
   }
-  .cta h2 {
-    font-size: 1.6rem;
-  }
+  
   .hd1 h1 {
     font-size: 4rem;
   }
@@ -264,20 +253,11 @@
 }
 
 @media only screen and (min-width: 799px) and (max-width: 949px) {
-  .cta {
-    width: 95vw;
-    gap: 17px;
-
-  }
+  
   .skill{
     margin-top: -180px;
   }
-  .cta h1{
-    font-size: 2.4rem;
-  }
-  .cta h2 {
-    font-size: 1.6rem;
-  }
+  
   .hd1 h1 {
     font-size: 4rem;
   }
@@ -313,26 +293,7 @@
   }.gallery {
     gap: 50px;
   }
-  .cta {
-    width: 100vw;
-    flex-direction: column;
-    gap: 50px;
-    padding: 25px 20px;
-  }.cta h1 {
-    font-size: 3rem;
-    padding-right: 20px;
-  }
-  .cta h2 {
-    font-size: 2rem;
-  }
-.quote h2{
-  font-size: 1.8rem;
-}
-.quote {
-  margin-bottom: 12.7px;
-  margin-top: -95.5px;
-
-}
+  
 }
 
 @media only screen and (min-width: 300px) and (max-width: 569px){
@@ -349,26 +310,7 @@
   }.gallery {
     gap: 50px;
   }
-  .cta {
-    width: 520px;
-    flex-direction: column;
-    gap: 50px;
-    padding: 25px 20px;
-  }.cta h1 {
-    font-size: 3rem;
-    padding-right: 20px;
-  }
-  .cta h2 {
-    font-size: 2rem;
-  }
-.quote h2{
-  font-size: 1.8rem;
-}
-.quote {
-  margin-bottom: 12.7px;
-  margin-top: -95.5px;
-
-}
+  
 
 }
 @media only screen and (min-width: 230px) and (max-width: 300px){
@@ -378,18 +320,7 @@
   .gallery{
     gap: 60px;
   }
-  .cta {
-    width: 120vw;
-    flex-direction: column;
-    gap: 50px;
-    padding: 25px 20px;
-  }.cta h1 {
-    font-size: 2rem;
-    padding-right: 20px;
-  }
-  .cta h2 {
-    font-size: 1.5rem;
-  }
+  
 }
 
 @media only screen and (min-width: 100px) and (max-width: 230px){
@@ -439,18 +370,7 @@
   .about_text{
     margin-top: 27px;
   }
-  .cta {
-    width:270px;
-    flex-direction: column;
-    gap: 40px;
-    padding: 25px 20px;
-  }.cta h1 {
-    font-size: 2rem;
-    padding-right: 20px;
-  }
-  .cta h2 {
-    font-size: 1.5rem;
-  }
+  
   .skill{
     background-color: white;
     box-shadow: -2px -4px 10px 7px rgb(0 0 0 / 20%);
