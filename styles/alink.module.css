@@ -1,0 +1,38 @@
+.alink a{
+    font-size: 1.8rem;
+    color: rgb(255 184 0);
+    text-decoration: none;
+    font-weight: 450;
+    padding: 0.5rem 0.75rem;
+    font-weight: 500;
+}
+.alink a:hover{
+    
+    color: #fc8800;
+    text-decoration: underline  #fc1900 solid 3px;
+    
+    
+}
+
+/* @media only screen and (max-width: 1216px) {
+    .alink a {
+  
+        font-weight: 400;
+      }
+    }
+     */
+
+     @media only screen and (min-width: 569px) and (max-width: 769px){
+        .alink a img[alt="A7Coder's Logo"]{
+            width: 200px;
+
+        }
+     }
+
+     @media only screen and (max-width: 1024px) {
+         .alink a{
+            font-size: 2rem;
+            /* color: black; */
+          }
+          
+     }

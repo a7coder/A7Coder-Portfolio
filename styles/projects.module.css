@@ -1,0 +1,67 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  /* background-color: gold; */
+  /* flex: 0 1 100vw; */
+  /* height: 100vh; */
+  /* justify-content: space-around; */
+  gap: 7rem;
+  margin-bottom: 270px;
+}
+
+.projects h1 {
+  color: rgb(255, 136, 0);
+
+  text-align: center;
+}
+.gallery {
+  display: flex;
+  /* background-color: blueviolet; */
+  gap: 5vh;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 27px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1214px) {
+  .projects h1 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 949px) and (max-width: 1024px) {
+  .projects h1 {
+    font-size: 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 799px) and (max-width: 949px) {
+  .projects h1 {
+    font-size: 3.4rem;
+  }
+}
+@media only screen and (min-width: 569px) and (max-width: 799px) {
+  .projects h1 {
+    font-size: 3.2rem;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 569px) {
+  .projects h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 230px) and (max-width: 300px){
+    .projects h1 {
+        font-size: 3rem;
+      }
+
+}
+@media only screen and (min-width: 100px) and (max-width: 230px){
+    .projects h1 {
+        font-size: 2rem;
+      }
+
+}

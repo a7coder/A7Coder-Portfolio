@@ -1,0 +1,79 @@
+
+.my_btn a{
+    display: block;
+    /* width: 10vw; */
+    /* height: max-content; */
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    width: max-content;
+    border-radius: 9999px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #FC9900;
+    color: #fc8f00;
+    margin: 10px;
+    font-weight: 600;
+
+}
+
+.my_btn a:hover{
+    cursor: pointer;
+    background-color: #FC9900;
+    color: white
+;
+}
+
+@media only screen and (min-width: 769px ) and ( max-width:1024px) {
+    .my_btn a{
+        /* padding: 0.5rem; */
+        font-size: 1.6rem;
+    }
+    .my_btn a svg{
+        width: 12px;
+
+    }
+}
+@media only screen and (min-width: 569px) and (max-width: 769px){
+    .my_btn a{
+        /* padding: 0.5rem; */
+        font-size: 1.6rem;
+        
+    }
+    .my_btn a svg{
+        width: 12px;
+
+    }
+
+}
+@media only screen and (min-width: 300px) and (max-width: 568px){
+    .my_btn a{
+        padding: 0.5rem;
+        font-size: 1rem;
+        
+    }
+    .my_btn a svg{
+        width: 10px;
+
+    }
+
+}
+
+@media only screen and (min-width: 100px) and (max-width: 301px){
+    .my_btn a{
+        padding: 0.5rem;
+        font-size: 1.2rem;
+        
+    }
+    .my_btn a svg{
+        width: 8px;
+
+    }
+
+}
+@media only screen and (min-width:100px) and (max-width: 1024px) {
+     .my_btn a{
+       font-size: 2rem;
+       /* color: black; */
+     }
+     
+}
