@@ -47,7 +47,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >A7Coder</a></strong> and so my logo
-                <strong>(●&apos;◡&apos;●)</strong>.
+                <strong>(●'◡'●)</strong>.
               </h2>
             </div>
             <a
