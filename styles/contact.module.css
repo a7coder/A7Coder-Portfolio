@@ -265,7 +265,7 @@ margin: 0 12px;
   .html_form input[type="text"],
 .html_form input[type="email"]{
   font-size: 19px;
-  width: 377px;
+  width: 367px;
 
 }
   .name label{
@@ -279,7 +279,7 @@ margin: 0 12px;
     font-size: 15px;
   }
   .html_form textarea{
-    font-size: 19px; width: 377px;
+    font-size: 19px; width: 367px;
   }
 
 }

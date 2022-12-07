@@ -3,6 +3,7 @@ import Button from "./Button";
 import Alink from "./Alink";
 import Head from "next/head";
 
+
 const toogle = (e) => {
   let x = document.getElementById("ham");
   let y = document.getElementById("close");
@@ -43,9 +44,9 @@ export default function Nav({ children }) {
       <Head>
         <title>Ayush Kothiyal | Full Stack & Python Developer | A7Coder</title>
         <link rel="icon" href="/Icon/favicon.ico" />
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <link rel="canonical" href="https://a7coder.com" />
         <meta property="og:site_name" content="Ayush Kothiyal" />
         <meta property="og:type" content="website" />
@@ -109,6 +110,7 @@ export default function Nav({ children }) {
           Say Hello
         </Button>
       </div>
+      <div className='close' id="notification"></div>
     </>
   );
 }
