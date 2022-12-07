@@ -63,7 +63,7 @@ function createHtml(msg,color){
       body: JSONdata,
     }
 
-    const response = await fetch('http://localhost:8000/contact', options)
+    const response = await fetch('https://a7coder.cyclic.app/contact', options)
     const result = await response.json()
     event.target.name.value=''
     event.target.email.value=''

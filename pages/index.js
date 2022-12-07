@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import styles from "../styles/index.module.css";
 import Image from "next/image";
 
@@ -46,7 +47,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >A7Coder</a></strong> and so my logo
-                <strong>(●'◡'●)</strong>.
+                <strong>(●&apos;◡&apos;●)</strong>.
               </h2>
             </div>
             <a
