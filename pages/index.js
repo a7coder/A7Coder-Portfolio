@@ -67,7 +67,7 @@ export default function Home() {
           <h1>Languages I speak</h1>
           <div className={styles.gallery}>
             <Image
-              src="/Programming/js.svg"
+              src="/Programming/JS.svg"
               width={50}
               height={50}
               title='JavaScript'
