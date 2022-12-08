@@ -26,7 +26,7 @@
 @media only screen and (min-width: 769px ) and ( max-width:1024px) {
     .my_btn a{
         /* padding: 0.5rem; */
-        font-size: 1.6rem;background-color: red;
+        font-size: 1.6rem;
     }
     .my_btn a svg{
         width: 12px;
@@ -35,9 +35,8 @@
 }
 @media only screen and (min-width: 569px) and (max-width: 769px){
     .my_btn a{
-        padding: 0 2.5rem;
+        /* padding: 0.5rem; */
         font-size: 1.6rem;
-        
         
     }
     .my_btn a svg{
