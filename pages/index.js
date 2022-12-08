@@ -11,6 +11,7 @@ export default function Home() {
           <h1>Full Stack & Python Developer </h1>
           <h2>I code to Make the World Happier and I love what I do.</h2>
           <Image
+           priority={true}
             src="/Profile/mf-avatar.svg"
             width={210}
             height={210}
@@ -22,6 +23,7 @@ export default function Home() {
         <div className={styles.sec1}>
           <div className={styles.sub_container}>
             <Image
+             priority={true}
               src="/Images/hero-devices.svg"
               width={800}
               height={290}
@@ -67,6 +69,7 @@ export default function Home() {
           <h1>Languages I speak</h1>
           <div className={styles.gallery}>
             <Image
+             priority={true}
               src="/Programming/JS.svg"
               width={50}
               height={50}
@@ -74,6 +77,7 @@ export default function Home() {
               alt="JavaScript"
             ></Image>
             <Image
+             priority={true}
               src="/Programming/python.svg"
               width={50}
               height={50}
@@ -81,6 +85,7 @@ export default function Home() {
               alt="Python"
             ></Image>
             <Image
+             priority={true}
               src="/Programming/cpp.svg"
               width={50}
               height={50}
@@ -88,6 +93,7 @@ export default function Home() {
               alt="C++"
             ></Image>
             <Image
+             priority={true}
               src="/Programming/css.png"
               width={50}
               height={70}
@@ -95,6 +101,7 @@ export default function Home() {
               alt="CSS"
             ></Image>
             <Image
+             priority={true}
               src="/Programming/ejs.png"
               width={50}
               height={50}
@@ -102,6 +109,7 @@ export default function Home() {
               alt="EJS"
             ></Image>
             <Image
+             priority={true}
               src="/Programming/html.png"
               width={50}
               height={50}
@@ -115,6 +123,7 @@ export default function Home() {
           <h1>Frameworks I Use</h1>
           <div className={styles.gallery}>
             <Image
+             priority={true}
               src="/Framewrok/next.png"
               width={50}
               height={50}
@@ -122,6 +131,7 @@ export default function Home() {
               title='NextJs'
             ></Image>
             <Image
+             priority={true}
               src="/Framewrok/express.jpg"
               width={50}
               height={50}
@@ -129,6 +139,7 @@ export default function Home() {
               title='Express'
             ></Image>
             <Image
+             priority={true}
               src="/Framewrok/mongodb.png"
               width={50}
               height={50}
@@ -136,6 +147,7 @@ export default function Home() {
               title='MongoDb'
             ></Image>
             <Image
+             priority={true}
               src="/Framewrok/mysql.png"
               width={50}
               height={50}
@@ -143,6 +155,7 @@ export default function Home() {
               title='MySQL'
             ></Image>
             <Image
+             priority={true}
               src="/Framewrok/react.png"
               width={50}
               height={50}
@@ -150,6 +163,7 @@ export default function Home() {
               title='ReactJS'
             ></Image>
             <Image
+             priority={true}
               src="/Framewrok/beautifulsoup.png"
               width={50}
               height={50}
@@ -157,6 +171,7 @@ export default function Home() {
               title='BeautifulSoup'
             ></Image>
             <Image
+             priority={true}
               src="/Framewrok/django.png"
               width={50}
               height={50}
@@ -165,6 +180,7 @@ export default function Home() {
             ></Image>
 
             <Image
+             priority={true}
               src="/Framewrok/flask.png"
               width={50}
               height={50}

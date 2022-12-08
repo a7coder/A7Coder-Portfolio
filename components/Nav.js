@@ -42,6 +42,7 @@ export default function Nav({ children }) {
   return (
     <>
       <Head>
+      <html lang={lang} />
         <title>Ayush Kothiyal | Full Stack & Python Developer | A7Coder</title>
         <link rel="icon" href="/Icon/favicon.ico" />
         <meta charSet="utf-8" />
@@ -81,6 +82,7 @@ export default function Nav({ children }) {
         </div>
         <div className="hamburger" onClick={toogle}>
           <Image
+           priority={true}
             src="/Images/ham.png"
             width={40}
             height={40}
@@ -89,6 +91,7 @@ export default function Nav({ children }) {
             id="ham"
           />
           <Image
+           priority={true}
             src="/Images/close.png"
             width={40}
             height={40}
