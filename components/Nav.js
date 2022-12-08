@@ -62,7 +62,7 @@ export default function Nav({ children }) {
         <meta name="robots" content="index , follow"/>
       </Head>
       <nav>
-        <Alink url="/">
+        <Alink url="/" onClick={handleClick}>
           <Image
             src="/Icon/logo.gif"
             width={150}

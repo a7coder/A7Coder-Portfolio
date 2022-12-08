@@ -2,6 +2,20 @@
 import Button from "./Button";
 import Alink from './Alink'
 import Image from "next/image";
+
+const handleClick = (e) => {
+  console.log("h");
+  let x = document.getElementById("ham");
+  let y = document.getElementById("close");
+  let z = document.getElementById("new-nav");
+  y.style.display = "none";
+  x.style.display = "block";
+  //Close Navigation
+  z.classList.add("close");
+  console.log(x,y,z);
+};
+
+
 export default function Footer() {
   return (
     <footer id="footer">
@@ -9,7 +23,7 @@ export default function Footer() {
         <div className='cta'>
           <h1>Start a project</h1>
           <h2>Looking Forward To Work with Great Peoples 😊</h2>
-          <Button url="/contact">
+          <Button url="/contact" >
             <svg
               className='svg_logo'
               aria-hidden="true"
@@ -31,7 +45,7 @@ export default function Footer() {
           </Button>
         </div>
         <div className='footer'>
-          <Alink url='/'>
+          <Alink url='/' onClick={handleClick}>
           <Image
             src="/Icon/logo.svg"
             width={270}
@@ -61,7 +75,7 @@ export default function Footer() {
               alt="Gmail's Logo"
             />
           </Alink>
-          <Alink url="http://linkedin.com/in/ayush-kothiyal-2a349a1ba">
+          <Alink url="http://linkedin.com/in/ayush-kothiyal-2a349a1ba" >
             <Image
               src="/Social_Icon/linkedin.svg"
               width={40}

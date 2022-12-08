@@ -1,6 +1,6 @@
 .alink a{
-    font-size: 2rem;
-    color: #f98e51;
+    font-size: 1.8rem;
+    color: rgb(255 184 0);
     text-decoration: none;
     font-weight: 450;
     padding: 0.5rem 0.75rem;
@@ -13,22 +13,32 @@
     
     
 }
-
 .alink a img[alt="A7Coder's Logo"]{
-    width: 200px;
+    width: 170px;
     height: auto;
-  }
 
-/* 
+}
+
+/* @media only screen and (max-width: 1216px) {
+    .alink a {
+  
+        font-weight: 400;
+      }
+    }
+     */
+
      @media only screen and (min-width: 569px) and (max-width: 769px){
-        .alink a img{
-            width: 200px;
+        .alink a img[alt="A7Coder's Logo"]{
+            width: 170px;
+            height: auto;
 
         }
      }
 
-    
-     @media only screen and (min-width: 230px) and (max-width: 300px){
-        
-
-     } */
+     @media only screen and (max-width: 1024px) {
+         .alink a{
+            font-size: 2rem;
+            /* color: black; */
+          }
+          
+     }
