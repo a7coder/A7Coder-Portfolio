@@ -12,11 +12,11 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     let x = document.getElementById("loader");
     const handleStart = (url) => {
-      console.log(`Loading: ${url}`);
+      // console.log(`Loading: ${url}`);
 
       x.classList.remove("close");
       x.classList.add("loading");
-      console.log(x);
+      // console.log(x);
     };
 
     const handleStop = () => {

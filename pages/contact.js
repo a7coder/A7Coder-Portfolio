@@ -18,7 +18,7 @@ function createHtml(msg,color){
 
   const notify_area=document.getElementById('notification')
   // console.log(notify_area)
-  console.log('msg,color' ,msg,color)
+  // console.log('msg,color' ,msg,color)
   notify_area.classList.remove('close')
   notify_area.classList.add('notification')
   notify_area.classList.add(color)
@@ -74,7 +74,7 @@ function createHtml(msg,color){
      x.classList.add('close')
       x.classList.remove('loading')
     
-    console.log('result',result)
+    // console.log('result',result)
     if(!response.ok){
 
 createHtml(result,'danger')
