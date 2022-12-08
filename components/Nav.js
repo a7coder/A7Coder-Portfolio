@@ -45,7 +45,7 @@ export default function Nav({ children }) {
         <title>Ayush Kothiyal | Full Stack & Python Developer | A7Coder</title>
         <link rel="icon" href="/Icon/favicon.ico" />
         <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <link rel="canonical" href="https://a7coder.com" />
         <meta property="og:site_name" content="Ayush Kothiyal" />

@@ -37,6 +37,7 @@
     .my_btn a{
         padding: 0 2.5rem;
         font-size: 1.6rem;
+        background-color: red;
         
     }
     .my_btn a svg{
