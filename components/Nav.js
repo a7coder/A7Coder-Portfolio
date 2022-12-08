@@ -28,7 +28,7 @@ const toogle = (e) => {
 };
 
 const handleClick = (e) => {
-  console.log("h");
+  // console.log("h");
   let x = document.getElementById("ham");
   let y = document.getElementById("close");
   let z = document.getElementById("new-nav");
@@ -64,6 +64,7 @@ export default function Nav({ children }) {
       <nav>
         <Alink url="/" onClick={handleClick}>
           <Image
+          priority={true}
             src="/Icon/logo.gif"
             width={150}
             height={150}

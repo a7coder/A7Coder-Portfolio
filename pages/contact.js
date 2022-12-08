@@ -39,6 +39,9 @@ function createHtml(msg,color){
 
 
   async function submitHandler(event) {
+    let x = document.getElementById("loader");
+    x.classList.remove('close')
+      x.classList.add('loading')
     event.preventDefault();
     // console.log("Submitted", event);
     // console.log(process.env.token)
@@ -68,6 +71,9 @@ function createHtml(msg,color){
     event.target.name.value=''
     event.target.email.value=''
     event.target.msg.value=''
+     x.classList.add('close')
+      x.classList.remove('loading')
+    
     console.log('result',result)
     if(!response.ok){
 

@@ -4,7 +4,7 @@ import Alink from './Alink'
 import Image from "next/image";
 
 const handleClick = (e) => {
-  console.log("h");
+  // console.log("h");
   let x = document.getElementById("ham");
   let y = document.getElementById("close");
   let z = document.getElementById("new-nav");
