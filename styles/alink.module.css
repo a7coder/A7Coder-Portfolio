@@ -1,6 +1,6 @@
 .alink a{
     font-size: 1.8rem;
-    color: rgb(255 184 0);
+    color: #fc7e00;
     text-decoration: none;
     font-weight: 450;
     padding: 0.5rem 0.75rem;
@@ -8,7 +8,7 @@
 }
 .alink a:hover{
     
-    color: #fc8800;
+    color: #fc7a00;
     text-decoration: underline  #fc1900 solid 3px;
     
     
