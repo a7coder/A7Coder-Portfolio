@@ -35,7 +35,7 @@ nav {
   align-items: center;
   /* padding: 19.2px 0; */
   /* flex: 1 1 20vh; */
-  margin: 0 17px;
+  margin: 0 27px;
   padding: 0 20px;
 }
 footer {
@@ -161,7 +161,10 @@ h2 {
   color: white;
   text-align: center;
 }
-
+.hamburger img{
+  width: 70px;
+  height: auto;
+}
 
 
 .notification{
@@ -225,25 +228,9 @@ padding: 10px 60px;
 }
 
 
-@media only screen and (min-width: 1408px) {
-  nav {
-    /* background-color: red; */
-    padding: 80px 20px;
-  }
-}
-@media only screen and (min-width: 1216px) and (max-width: 1408px) {
-  nav {
-    /* background-color: blue; */
-    margin: 0px;
-    /* padding: 80px 20px; */
-  }
-}
+
 @media only screen and (min-width: 1024px) and (max-width: 1215px) {
-  nav {
-    /* background-color: yellow; */
-    margin: 0px;
-    /* padding: 80px 60px; */
-  }
+  
   .cta h1 {
     font-size: 2.7rem;
   }
@@ -298,6 +285,7 @@ padding: 10px 60px;
   margin-top: -95.5px;
 
 }
+
 }
 
 @media only screen and (min-width: 300px) and (max-width: 569px){
@@ -339,6 +327,7 @@ padding: 10px 60px;
   .quote h2{
     font-size: 1.5rem;
   }
+  
 }
 
 @media only screen  and (min-width: 230px)and (max-width: 1024px) {
@@ -351,12 +340,7 @@ padding: 10px 60px;
   }
 
   
-  nav {
-    /* background-color: yellow; */
-    margin: 0px;
-    /* padding: 80px 30px; */
-  }
-
+  
  
 }
 
@@ -383,10 +367,7 @@ padding: 10px 60px;
     justify-content:flex-start;
     align-items: center;    margin-bottom: 47px;
   }
-  .hamburger img{
-    width: 55px;
-    height: 55px;
-  }
+ 
   .cta {
     width:270px;
     flex-direction: column;
