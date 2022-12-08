@@ -115,6 +115,7 @@ h2 {
   align-items: center;
   padding: 0px 24px;
   flex-direction: column;
+  margin-top: -7px;
 }
 .logo {
   margin-top: -3.7rem;
@@ -122,6 +123,7 @@ h2 {
 .quote {
   margin: 0 auto;
   margin-top: -7.7rem;
+  margin-bottom: 27px;
 
 }
 .quote h2 {
