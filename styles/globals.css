@@ -332,6 +332,9 @@ padding: 10px 60px;
   .cta h2 {
     font-size: 1.5rem;
   }
+  .quote h2{
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen  and (min-width: 230px)and (max-width: 1024px) {
@@ -349,6 +352,7 @@ padding: 10px 60px;
     margin: 0px;
     /* padding: 80px 30px; */
   }
+
  
 }
 
@@ -390,5 +394,8 @@ padding: 10px 60px;
   }
   .cta h2 {
     font-size: 1.5rem;
+  }
+  .quote h2{
+    font-size: 1.2rem;
   }
   }

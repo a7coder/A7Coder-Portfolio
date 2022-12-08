@@ -1,5 +1,5 @@
 .alink a{
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #f98e51;
     text-decoration: none;
     font-weight: 450;
@@ -14,13 +14,6 @@
     
 }
 
-/* @media only screen and (max-width: 1216px) {
-    .alink a {
-  
-        font-weight: 400;
-      }
-    }
-     */
 
      @media only screen and (min-width: 569px) and (max-width: 769px){
         .alink a img[alt="A7Coder's Logo"]{
@@ -29,10 +22,11 @@
         }
      }
 
-     @media only screen and (max-width: 1024px) {
-         .alink a{
-            font-size: 2rem;
+    
+     @media only screen and (min-width: 300px) and (max-width: 568px){
+        .alink a{
+            /* font-size: 2.2rem; */
             /* color: black; */
           }
-          
+
      }
