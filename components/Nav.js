@@ -42,7 +42,7 @@ export default function Nav({ children }) {
   return (
     <>
       <Head>
-      <html lang='en' />
+     
         <title>Ayush Kothiyal | Full Stack & Python Developer | A7Coder</title>
         <link rel="icon" href="/Icon/favicon.ico" />
         <meta charSet="utf-8" />
