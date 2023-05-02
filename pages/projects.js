@@ -21,7 +21,7 @@ console.log('Fetching start')
       projects,
     },
     
-    revalidate: 10, 
+    // revalidate: 10, 
   }
 }
 
