@@ -11,7 +11,7 @@ const options={
 }
     const res = await fetch('https://a7coder.cyclic.app/projects',options)
   const projects = await res.json()
-  // console.log('pro',projects)
+  console.log('pro',projects)
     
   
   
