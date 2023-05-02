@@ -38,7 +38,7 @@ export default function Projects(props) {
          { projects.map((project)=>{
             return <Card key={project._id} title={project.title} img_url={project.img_url} desc_text={project.desc_text} repo_url={project.repo_url}></Card>
           })}
-          <Card key={4} title='Test' img_url='https://drive.google.com/uc?export=view&id=17XbQrLYfaZewakmOPAmXAgdQPt2DiF5T' desc_text='temp text' repo_url='a7coder.com'/>
+          
          
          
         </div>

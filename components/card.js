@@ -7,7 +7,7 @@ export default function Card({children,title,img_url,desc_text,repo_url}) {
    
       <div className={styles.card} >
       <Link href={repo_url} className={styles.card_link}>
-        <Image src={img_url} width={200} height={300} alt={title} title={title}/>
+        <Image src={img_url} width={200} height={300} alt={title} title={title} priority={true}/>
         <div className={styles.text}>
         <h2>{title}</h2>
         <p>{desc_text}</p>
