@@ -9,9 +9,10 @@ const options={
       'Authorization': `Bearer ${process.env.token}`, 
   },
 }
+// console.log('Fetching start')
     const res = await fetch('https://a7coder.cyclic.app/projects',options)
   const projects = await res.json()
-  console.log('pro',projects)
+  // console.log('pro',projects)
     
   
   
