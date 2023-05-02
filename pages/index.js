@@ -40,7 +40,7 @@ export default function Home() {
             <h1>Hi, I’m Ayush Kothiyal. Nice to meet you.</h1>
             <div className={styles.about_text}>
               <h2>
-                I am a <strong>3rd year Student </strong>doing my
+                I am a <strong>4th year Student </strong>doing my
                 <strong> B.Tech</strong> at
                 <strong> I.K. Gujral Punjab Technical University</strong>. I
                 love to Code and contribute in projects around the world. I also
