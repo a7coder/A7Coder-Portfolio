@@ -187,6 +187,22 @@ export default function Home() {
               alt="Flask"
               title='Flask'
             ></Image>
+            <Image
+             priority={true}
+              src="/Framewrok/sklearn.png"
+              width={50}
+              height={50}
+              alt="Flask"
+              title='Flask'
+            ></Image>
+            <Image
+             priority={true}
+              src="/Framewrok/tensorflow.png"
+              width={50}
+              height={50}
+              alt="Flask"
+              title='Flask'
+            ></Image>
           </div>
         </div>
       </div>
