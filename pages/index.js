@@ -203,6 +203,15 @@ export default function Home() {
               alt="Flask"
               title='Flask'
             ></Image>
+
+            <Image
+             priority={true}
+              src="/Framewrok/scrapy.png"
+              width={50}
+              height={50}
+              alt="Flask"
+              title='Flask'
+            ></Image>
           </div>
         </div>
       </div>
