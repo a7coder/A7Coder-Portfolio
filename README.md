@@ -46,6 +46,8 @@ Contributions to the project are welcome and encouraged! If you would like to co
 4. Push your changes to your forked repository.
 5. Create a pull request to the original repository and describe your changes.
 
+## [ Frontend Code ] (https://github.com/a7coder/A7Coder-Portfolio)
+## [ Backend Code ] (https://github.com/a7coder/Portfolio-Backend)
 ## License
 
 The project is licensed under the [MIT License](https://opensource.org/licenses/MIT), which allows for free use, modification, and distribution of the source code.
